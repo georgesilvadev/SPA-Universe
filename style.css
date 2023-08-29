@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --primary-color: #c4c4cc;
+  --text-color-hover: #ffffff;
+  --text-hover-button: #02799d;
+}
+
+.bg2 {
+  background-image: url(./pages/assets/mountains-universe02.png);
+}
+
+.bg3 {
+  background-image: url(./pages/assets/mountains-universe-3.png);
+}
+
+body {
+  height: 100vh;
+
+  background-image: url(./pages/assets/mountains-universe-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color-hover);
+}
+
+#app {
+  height: 89%;
+}
+
+nav {
+  padding: 2.5rem 4.5rem;
+
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+a {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+a:hover {
+  font-weight: bold;
+  color: var(--text-color-hover);
+}
+
+/* página home */
+.heading {
+  margin-top: -7.6rem;
+  font-size: 4rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+button {
+  background: transparent;
+  border-radius: 0.5rem;
+  border: 2px solid #fff;
+
+  padding: 1.2rem 3.2rem;
+
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+
+  color: var(--text-color-hover);
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: var(--text-color-hover);
+  color: var(--text-hover-button);
+  transition: .4s;
+}
+
+/* página universo */
+
+#universe{
+  margin-top: 6.2rem;
+  margin-left: 10.2rem;
+}
+
+.heading-universe{
+  font-size: 4.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.text-universe{
+  max-width: 64.8rem;
+  max-height: 20.3rem;
+
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: var(--primary-color);
+}
+
+/* página exploração */
+
+#exploration{
+  margin-top: 6.2rem;
+  margin-left: 10.2rem;
+}
+
+.heading-exploration{
+  font-size: 4.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.text-exploration{
+  max-width: 64.8rem;
+  max-height: 20.3rem;
+
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: var(--primary-color);
+}
